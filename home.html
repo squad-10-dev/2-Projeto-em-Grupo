@@ -1,0 +1,171 @@
+<!doctype html>
+<html lang="pt-BR">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Burger Dev</title>
+    <link rel="stylesheet" href="./estilos.css">
+<!-- Fonte -->
+<link href="https://fonts.googleapis.com/css?family=Roboto:300,400,700&display=swap" rel="stylesheet">
+  
+<!-- Estilos -->
+<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css" integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
+<link rel="stylesheet" href="css/stylesHome.css">
+
+<!-- Scripts-->
+<script
+src="https://code.jquery.com/jquery-3.4.1.min.js"
+integrity="sha256-CSXorXvZcTkaix6Yvo6HppcZGetbYMGWSFlBw8HfCJo="
+crossorigin="anonymous"></script>
+<script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js" integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo" crossorigin="anonymous"></script>
+<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js" integrity="sha384-wfSDF2E50Y2D1uUdj0O3uMBJnjuUD4Ih7YwaYd1iqfktj0Uod8GCExl3Og8ifwB6" crossorigin="anonymous"></script>
+
+<!-- Font Awesome -->
+<script src="https://kit.fontawesome.com/bf7e05c402.js" crossorigin="anonymous"></script>
+
+<!-- Parallax -->
+<script src="https://cdn.jsdelivr.net/parallax.js/1.4.2/parallax.min.js"></script>
+  </head>
+  <body>
+
+    <!-- Inicio NavBar-->
+    <nav class="navbar col-12 position-fixed navbar-expand-lg navbar-dark fixed-top" style="z-index: 999;">
+      <div class="container-fluid col-11 m-auto">
+        <!-- <img src="./FotosProjetoMod2/logo1.png">  -->
+        <a href="./planoass.html" ><img id="logo-2-neon" src="./FotosProjetoMod2/img-3-.png"> </a>
+        <a class="navbar-brand" href="index.html">Burguer Dev</a>
+
+        <!-- <img src="././Fotos Projeto Mod2/logo1.png"> -->
+        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarScroll" aria-controls="navbarScroll" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+
+        </button>
+        <div class="collapse navbar-collapse" id="navbarScroll">
+          <ul class="navbar-nav me-auto my-2 my-lg-0 navbar-nav-scroll" style="--bs-scroll-height: 100px;">
+            <li class="nav-item">
+              <a class="nav-link active" aria-current="page" href="./index.html">Página Inicial</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#">Cadastro</a>
+            </li>
+            <li class="nav-item dropdown">
+              <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                Planos de assinatura
+              </a>
+              <ul class="dropdown-menu">
+                <li><a class="dropdown-item" href="planoass.html">Planos</a></li>
+                <li><hr class="dropdown-divider"></li>
+                <li><a class="dropdown-item" href="#">Contato</a></li>
+              </ul>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link disabled"></a>
+            </li>
+          </ul>
+          <form class="d-flex" role="search">
+            <input class="form-control me-2" type="search" placeholder="Pesquisar..." aria-label="Search">
+            <button class="btn btn-outline-light bg-dark" type="submit">Buscar</button>
+          </form>
+        </div>
+      </div>
+    </nav>
+    <!-- Fim NavBar-->
+
+     
+  <main>
+    <div class="container-fluid">
+      
+      <!-- Sobre o restaurante-->
+      <div id="sobre-area">
+        <div class="container">
+            <div class="row">
+              <div class="col-12"> 
+                <h3 class="titulo-sobre">Burger DEV</h3>
+              </div>
+              <div class="col-md-6">
+                <img class="img-fluid" src="img/restaurante.jpg" alt="company-img">
+              </div>
+              <div class="col-md-6">
+                <h3 class="about-title">Chegamos para surpreender você com nossos deliciosos Hambúrgueres!</h3>
+                <p>Combos elaborados para você curtir com a galera... Uma verdadeira explosão de sabores.</p>
+                <p>Hoje, a Burger DEV se consolida como a maior hamburgueria delivery do Brasil com diversas lojas.</p>
+                <ul id="about-list">
+                  <li><i class="fas"></i> Propostas do serviço:</li>
+                  <li><i class="fas fa-check"></i> O oferecimento de comida rápida e saborosa em um ambiente padronizado.</li>
+                  <li><i class="fas fa-check"></i> A rede de franquias DEV oferece como seu principal diferencial o Hamburguer feito com uma receita secreta.</li>
+                  <li><i class="fas fa-check"></i> A marca de fast food preferida, mais rentável, com pessoas talentosas e forte presença nacional.</li>
+                </ul>
+              </div>
+            </div>
+          </div>
+      </div>
+
+
+      <!-- Cardapio -->
+      <div id="cardapio-area">
+        <div class="container">
+          <div class="row">
+            <div class="col-md-12">
+              <h3 class="titulo-sobre">Cardapio</h3>
+            </div>
+            <div class="col-md-4 cardapio-box">
+              <img src="img/proj1.jpg" class="img-fluid" alt="cardapio 1">
+            </div>
+            <div class="col-md-4 cardapio-box">
+              <img src="img/proj2.jpg" class="img-fluid" alt="cardapio 2">
+            </div>
+            <div class="col-md-4 cardapio-box">
+              <img src="img/proj3.jpg" class="img-fluid" alt="cardapio 3">
+            </div>
+            <div class="col-md-4 cardapio-box ">
+              <img src="img/proj4.jpg" class="img-fluid" alt="cardapio 4">
+            </div>
+            <div class="col-md-4 cardapio-box">
+              <img src="img/proj5.jpg" class="img-fluid" alt="cardapio 5">
+            </div>
+            <div class="col-md-4 cardapio-box">
+              <img src="img/proj6.jpg" class="img-fluid" alt="cardapio 6">
+            </div>
+            <div class="col-md-12" id="filter-btn-box"><a href="#<!--LINK DO CARDAPIO-->"> <!---->
+              <button class="main-btn filter-btn active" id="todos-btn">Ver cardápio completo</button></a>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      
+      <!-- Planos -->
+      <div id="apply-area">
+        <div class="container">
+          <div class="row">
+            <div class="col-md-6 apply-box" id="company-img"></div>
+            <div class="col-md-6 apply-box" id="pattern-img">
+              <h4>Gosta de cupons?</h4>
+              <p>Temos vários cupons disponiveis, entre eles: Frete gratis, Descontos e mais.</p>
+              <p>Clique no botão abaixo e confira os benefícios e os planos disponiveis.</p>
+              <p>Aqui você terá a chance de comprar os melhores Burges pelo melhor preço.</p>
+              <a href="#<!-- Link dos Planos -->" class="main-btn" id="apply-btn">Saiba Mais</a>
+            </div>
+          </div>
+        </div>
+      </div>
+   
+   
+      <!-- rodapé -->
+      <div id="rodape-area">
+        <div class="container">
+          <div class="col-md-12">
+            <h3 class="main-title">Fique por dentro das novidades</h3>
+          </div>
+          <p>Assine nossa lista de e-mails, e receba tudo sobre o desenvolvimento do restaurante</p>
+          <form action="">
+            <input type="email" class="form-control" id="email-input" name="email" placeholder="Seu melhor e-mail" required>
+            <input type="submit" id="rodape-btn" value="  Receber  ">
+          </form>
+        </div>
+      </div>
+
+      <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-kenU1KFdBIe4zVF0s0G1M5b4hcpxyD9F7jL+jjXkk+Q2h455rYXK/7HAuoJl+0I4" crossorigin="anonymous"></script>
+
+</body>
+</html>
