@@ -11,8 +11,8 @@ Como o servi√ßo de Delivery realiza pedidos personalizados pelo nosso site, ent√
 `Css`;
 `Javascript`;
 `Bootstrap`;
-`framework`
-`jQuery`
+`framework`;
+`jQuery`;
 `Api-ViaCep`
 
 
