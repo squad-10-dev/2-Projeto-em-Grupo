@@ -122,7 +122,7 @@ nav {
   }
 
   body {
-    background-image: url('./assets/imgs/img/burger2_01-sem-logo.png');
+    background-image: url('../assets/imgs/img/burger2_01-sem-logo.png');
     background-size: contain;
     background-position: center;
     background-repeat: repeat;
