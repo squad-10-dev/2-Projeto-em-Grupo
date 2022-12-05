@@ -1,0 +1,308 @@
+<!doctype html>
+<html lang="pt-BR">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Apresentação do Produto </title>
+    <link rel="stylesheet" href="./estilos.css">
+
+  </head>
+  <body>
+    <!-- Inicio NavBar-->
+    <nav class="navbar col-12 position-fixed navbar-expand-lg navbar-dark" style="z-index: 999;">
+      <div class="container-fluid col-11 m-auto">
+        <!-- <img src="./FotosProjetoMod2/logo1.png">  -->
+        <a href="./index.html" ><img id="logo-2-neon" src="./FotosProjetoMod2/img-3-.png"> </a>
+        <a class="navbar-brand" href="./index.html">Burguer Dev</a>
+        <!-- <img src="././Fotos Projeto Mod2/logo1.png"> -->
+        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarScroll" aria-controls="navbarScroll" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+
+        </button>
+        <div class="collapse navbar-collapse" id="navbarScroll">
+          <ul class="navbar-nav me-auto my-2 my-lg-0 navbar-nav-scroll" style="--bs-scroll-height: 100px;">
+            <li class="nav-item">
+              <a class="nav-link active" aria-current="page" href="./index.html">Página Inicial</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="./pages/cadastro.html">Cadastro</a>
+            </li>
+            <li class="nav-item dropdown">
+              <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                Menu/Outros
+              </a>
+              <ul class="dropdown-menu">
+                <li><a class="dropdown-item" href="./produtos.html">Cardápio</a></li>
+                <li><hr class="dropdown-divider"></li>
+                <li><a class="dropdown-item" href="planoass.html">Planos</a></li>
+                <li><hr class="dropdown-divider"></li>
+                <li><a class="dropdown-item" href="./pages/contato.html">Contato</a></li>
+                <li><hr class="dropdown-divider"></li>
+                  <li><a class="dropdown-item" href="./login.html">Perfil</a></li>
+              </ul>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link disabled"></a>
+            </li>
+          </ul>
+          <form class="d-flex" role="search">
+            <input class="form-control me-2" type="search" placeholder="Pesquisar..." aria-label="Search">
+            <button class="btn btn-outline-light bg-dark" type="submit">Buscar</button>
+          </form>
+        </div>
+      </div>
+    </nav>
+    <!-- Fim NavBar-->
+    <br><br>
+    <!-- Inicio Carrosel -->
+    <div id="carouselExampleCaptions" class="carousel slide" data-bs-ride="false">
+     <div class="carousel-indicators w-75">
+        <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
+        <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="1" aria-label="Slide 2"></button>
+        <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="2" aria-label="Slide 3"></button>
+      </div>
+      <div class="carousel-inner">
+        <div class="carousel-item active">
+          <img src="./FotosProjetoMod2/hb7.jpg" class="d-block w-100" alt="...">
+          <div class="carousel-caption d-none d-md-block">
+            <h5>HTML 1 Potatos</h5>
+            <p>Um lanche simples e saboroso!</p>
+          </div>
+        </div>
+        <div class="carousel-item">
+          <img src="./FotosProjetoMod2/hb10.jpg" class="d-block w-100" alt="...">
+          <div class="carousel-caption d-none d-md-block">
+            <h5>CSS Cheese</h5>
+            <p>Um lanche super estiloso e com muuito queijo!</p>
+          </div>
+        </div>
+        <div class="carousel-item">
+          <img src="./FotosProjetoMod2/hb9.jpg" class="d-block w-100" alt="...">
+          <div class="carousel-caption d-none d-md-block">
+            <h5>JavaBurguer</h5>
+            <p>Perfeito para uma interação com sua(o) parceiro(a)!</p>
+          </div>
+        </div>
+      </div>
+      <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide="prev">
+        <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+        <span class="visually-hidden">Previous</span>
+      </button>
+      <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide="next">
+        <span class="carousel-control-next-icon" aria-hidden="true"></span>
+        <span class="visually-hidden">Next</span>
+      </button>
+    </div>
+    <div id="carouselExampleCaptions" class="carousel slide" data-bs-ride="false">
+  <!--Fim Carrosel -->
+  <br>
+  <hr>
+  <br> 
+  <!--Inicio Card-->
+  <div class="card-group col-11 m-auto">
+    <div class="card">
+      <img src="./FotosProjetoMod2/hb6.jpg" class="card-img-top" alt="...">
+      <div class="card-body">
+        <h5 class="card-title">HTML 3</h5>
+        <p class="card-text">Um combo triplo perfeito para você e seus colegas Devs em um projeto pesado.</p>
+        <p class="card-text"><small class="text-muted">Ultima atualização a 4 minutos atrás.</small></p>
+     
+    <!-- Botão modal 1 -->    
+<button type="button" class="btn btn-primary" data-bs-toggle="modal" data-bs-target="#hb1">
+  Ingredientes!
+</button>
+
+<!-- Inicio Modal -->
+<div class="modal fade" id="hb1" data-bs-backdrop="static" data-bs-keyboard="false" tabindex="-1" aria-labelledby="staticBackdropLabel" aria-hidden="true">
+  <div class="modal-dialog">
+    <div class="modal-content">
+      <div class="modal-header">
+        <h1 class="modal-title fs-5" id="hb1">HTML 3</h1>
+        <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+      </div>
+      <div class="modal-body">
+        <img src="./FotosProjetoMod2/hb6.jpg" id="img-resize" m-auto>
+        <p>Mussum Ipsum, cacilds vidis litro abertis. Delegadis gente finis, bibendum egestas augue arcu ut est.Quem num gosta di mé, boa gentis num é.Leite de capivaris, leite de mula manquis sem cabeça.Paisis, filhis, espiritis santis.
+
+          Diuretics paradis num copo é motivis de denguis.Interagi no mé, cursus quis, vehicula ac nisi.Quem num gosta di mim que vai caçá sua turmis!Mais vale um bebadis conhecidiss, que um alcoolatra anonimis.
+          
+          Leite de capivaris, leite de mula manquis sem cabeça.Si num tem leite então bota uma pinga aí cumpadi!A ordem dos tratores não altera o pão duris.Suco de cevadiss deixa as pessoas mais interessantis.</p>
+      </div>
+      <div class="modal-footer">
+        <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
+      </div>
+    </div>
+  </div>
+</div>
+<!-- Fim do Modal 1 -->
+      </div>
+    </div>
+    <div class="card">
+      <img src="./FotosProjetoMod2/hb4.jpg" class="card-img-top" alt="...">
+      <div class="card-body">
+        <h5 class="card-title">HTML 1 Potatos</h5>
+        <p class="card-text">Um combo simples, porém perfeito para saciar sua fome em uma noite de desenvolvimento.</p>
+        <p class="card-text"><small class="text-muted">Ultima atualização a 2 minutos atrás.</small></p>
+
+         <!-- Botão modal -->    
+<button type="button" class="btn btn-primary" data-bs-toggle="modal" data-bs-target="#staticBackdrop">
+  Ingredientes!
+</button>
+
+
+<!-- Modal 2 -->
+<div class="modal fade" id="staticBackdrop" data-bs-backdrop="static" data-bs-keyboard="false" tabindex="-1" aria-labelledby="staticBackdropLabel" aria-hidden="true">
+  <div class="modal-dialog">
+    <div class="modal-content">
+      <div class="modal-header">
+        <h1 class="modal-title fs-5" id="staticBackdropLabel">HTML 1 Potatos</h1>
+        <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+      </div>
+      <div class="modal-body">
+        <img id="img-resize" src="./FotosProjetoMod2/hb4.jpg">
+        <p>Mussum Ipsum, cacilds vidis litro abertis. Delegadis gente finis, bibendum egestas augue arcu ut est.Quem num gosta di mé, boa gentis num é.Leite de capivaris, leite de mula manquis sem cabeça.Paisis, filhis, espiritis santis.
+
+          Diuretics paradis num copo é motivis de denguis.Interagi no mé, cursus quis, vehicula ac nisi.Quem num gosta di mim que vai caçá sua turmis!Mais vale um bebadis conhecidiss, que um alcoolatra anonimis.
+          
+          Leite de capivaris, leite de mula manquis sem cabeça.Si num tem leite então bota uma pinga aí cumpadi!A ordem dos tratores não altera o pão duris.Suco de cevadiss deixa as pessoas mais interessantis.</p>
+      </div>
+      <div class="modal-footer">
+        <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
+      </div>
+    </div>
+  </div>
+</div>
+<!-- Fim do Modal 2 -->
+      </div>
+      <br><br>
+    </div>
+    <div class="card">
+      <img src=".//FotosProjetoMod2/hb5.jpg" class="card-img-top" alt="...">
+      <div class="card-body">
+        <h5 class="card-title">React Whoop</h5>
+        <p class="card-text">Um sanduiche leve e perfeito para uma primeira refeição do dia.</p>
+        <p class="card-text"><small class="text-muted">Ultima atualização a 6 minutos atrás.</small></p>
+
+               <!-- Botão modal 3 -->    
+<button type="button" class="btn btn-primary" data-bs-toggle="modal" data-bs-target="#staticBackdrop">
+  Ingredientes!
+</button>
+  </div>
+</div>
+
+<!-- Modal -->
+<div class="modal fade" id="staticBackdrop" data-bs-backdrop="static" data-bs-keyboard="false" tabindex="-1" aria-labelledby="staticBackdropLabel" aria-hidden="true">
+  <div class="modal-dialog">
+    <div class="modal-content">
+      <div class="modal-header">
+        <h1 class="modal-title fs-5" id="staticBackdropLabel">React Whoop</h1>
+        <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+      </div>
+      <div class="modal-body">
+        <img id="img-resize" src="./FotosProjetoMod2/hb5.jpg">
+        <p>Mussum Ipsum, cacilds vidis litro abertis. Delegadis gente finis, bibendum egestas augue arcu ut est.Quem num gosta di mé, boa gentis num é.Leite de capivaris, leite de mula manquis sem cabeça.Paisis, filhis, espiritis santis.
+
+          Diuretics paradis num copo é motivis de denguis.Interagi no mé, cursus quis, vehicula ac nisi.Quem num gosta di mim que vai caçá sua turmis!Mais vale um bebadis conhecidiss, que um alcoolatra anonimis.
+          
+          Leite de capivaris, leite de mula manquis sem cabeça.Si num tem leite então bota uma pinga aí cumpadi!A ordem dos tratores não altera o pão duris.Suco de cevadiss deixa as pessoas mais interessantis.</p>
+      </div>
+      <div class="modal-footer">
+        <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
+      </div>
+    </div>
+  </div>
+</div>
+
+<div class="card">
+  <img src="./FotosProjetoMod2/Hamburguer2 Projeto.jpg" class="card-img-top" alt="...">
+  <div class="card-body">
+    <h5 class="card-title">Bootstrap CSS</h5>
+    <p class="card-text">Aquele combo PERFEITO para facilitar sua vida e te poupar de preparar uma refeição inteira.</p>
+    <p class="card-text"><small class="text-muted">Ultima atualização a 9 minutos atrás.</small></p>
+
+           <!-- Botão modal 3 -->    
+<button type="button" class="btn btn-primary" data-bs-toggle="modal" data-bs-target="#staticBackdrop">
+Ingredientes!
+</button>
+  </div>
+</div>
+
+<!-- Modal -->
+<div class="modal fade" id="staticBackdrop" data-bs-backdrop="static" data-bs-keyboard="false" tabindex="-1" aria-labelledby="staticBackdropLabel" aria-hidden="true">
+<div class="modal-dialog">
+<div class="modal-content">
+  <div class="modal-header">
+    <h1 class="modal-title fs-5" id="staticBackdropLabel">Bootstrap CSS</h1>
+    <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+  </div>
+  <div class="modal-body">
+    <img id="img-resize" src="./FotosProjetoMod2/hb5.jpg">
+    <p>Mussum Ipsum, cacilds vidis litro abertis. Delegadis gente finis, bibendum egestas augue arcu ut est.Quem num gosta di mé, boa gentis num é.Leite de capivaris, leite de mula manquis sem cabeça.Paisis, filhis, espiritis santis.
+
+      Diuretics paradis num copo é motivis de denguis.Interagi no mé, cursus quis, vehicula ac nisi.Quem num gosta di mim que vai caçá sua turmis!Mais vale um bebadis conhecidiss, que um alcoolatra anonimis.
+      
+      Leite de capivaris, leite de mula manquis sem cabeça.Si num tem leite então bota uma pinga aí cumpadi!A ordem dos tratores não altera o pão duris.Suco de cevadiss deixa as pessoas mais interessantis.</p>
+  </div>
+  <div class="modal-footer">
+    <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
+  </div>
+</div>
+</div>
+</div>
+<!-- Fim do Modal -->
+      </div>
+    </div>
+  </div>
+
+  
+<br><br>
+<hr>
+
+  <div id="empresa" class="col-11 m-auto">
+    <h2 class="text-center">Sobre a Empresa</h2>
+    <p class="text-center"> Quem nunca precisou terminar um projeto e ficou até altas horas  e  bateu aquela fome ?!? 
+      Baseado nisso pensamos porque não introduzir nossos conhecimentos de programação até com comida?! Nós desenvolvemos um site de  Delivery chamado Burger Dev, justamente para facilitar a vida dos programadores!
+      Nosso objetivo ou Missão.
+      É servir produtos de altíssima qualidade e com uma linguagem que nosso público alvo se identifique proporcionando assim  experiências memoráveis.
+      Visão.
+       Ser lembrado na gastronomia da região, encantar o cliente, oferecendo satisfação e bem estar através de alimentos saborosos e excelência em atendimento.
+       Valores Trabalho em equipe.
+       Agilidade nos serviços qualidade nos produtos busca pela excelência. -Foco em resultado Inovação Superar expectativas dos clientes.
+       </p>
+  </div>
+  <br><br><br><br><br><br><br>
+  <hr>
+ <!-- Redes Sociais -->
+  <footer class="main">
+    <div class="sub-footer">
+      <h4> Nossas Redes Sociais</h4>
+      <p> Venha conhecer nossos Lanches e acompanhe nossos stories para receber <bold>cupons</bold></p>
+      <div class="logos">
+        <a class="logo" href="https://twitter.com/senacbonsucesso%22%3E"><img src="./FotosProjetoMod2/tt-light.png" alt="Twitter"></a>
+        <a class="logo" href="https://www.instagram.com/explore/locations/501792117/senac-rj-bonsucesso/%22%3E"><img src="./FotosProjetoMod2/insta-light.png" alt="Instagram"></a>
+        <a class="logo" href="https://www.whatsapp.me/+5521965762671%22%3E"><img src="./FotosProjetoMod2/wpp-light.svg" alt="Whatsapp"></a>
+        <a class="logo" href="https://www.github.com/squad-10-dev/%22%3E"><img src="./FotosProjetoMod2/git-dark.png" alt="Github"></a>
+      </div>
+      <!-- Fim Redes Sociais -->
+    </div>
+    <!-- Inicio Rodapé -->
+    <div class="footer-links">
+      <a href="#" target="_self">Termos de serviços</a>
+      <a href="#" target="_self">Políticas de privacidade</a>
+      <a href="#" target="_self">Dúvidas frequentes</a>
+      <a href="#" target="_self">Institucional</a>
+      <a href="#" target="_self">Trabalhe conosco</a>
+      <a href="#" target="_self">Sugira um serviço</a>
+      <a href="#" target="_self">Gerenciar Cookies</a>
+      <a href="#" target="_self">&copy;&nbsp;Copyright&nbsp;Direitos&nbsp;Reservados&nbsp;-&nbsp;Dev&nbsp;Burguer&nbsp;2022</a>
+  </div>
+  </footer>
+  <!-- Fim Rodapé -->
+  
+
+  
+     
+  
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-kenU1KFdBIe4zVF0s0G1M5b4hcpxyD9F7jL+jjXkk+Q2h455rYXK/7HAuoJl+0I4" crossorigin="anonymous"></script>
+  </body>
+</html>
