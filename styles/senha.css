@@ -14,7 +14,7 @@ header > nav > div > a > img {
     border-radius:8px;
     margin:18px auto;
     box-shadow: inset 0 5px 5px rgba(194, 191, 191, 0.562);
-    background-image: url("../assets/imgs/backgrounds/bg-recu-senha.png");
+    background-image: url("../assets/imgs/backgrounds/bg-recu-senha-med-res.png");
     background-size: cover;
     background-repeat: no-repeat;
  }
@@ -26,7 +26,7 @@ header > nav > div > a > img {
     height:40rem;
     display: flex;
     justify-content: center;
-    background:url("../assets/imgs/backgrounds/bg-recu-senha.png");
+    background:url("../assets/imgs/backgrounds/bg-recu-senha-med-res.png");
     background-size: cover;
     background-repeat:no-repeat;
     background-position: center;
