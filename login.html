@@ -1,0 +1,151 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+    <head>
+      <meta charset="utf-8"/>
+      <meta http-equiv="X-UA-Compatible" content=" IE=edge"/>
+      <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+      <title>Dev Burger- Login</title>
+      <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-rbsA2VBKQhggwzxH7pPCaAqO46MgnOM80zW1RWuH61DGLwZJEdK2Kadq2F9CUG65" crossorigin="anonymous">
+      <link href="../styles/login.css" rel="stylesheet"> 
+      
+  </head>
+    <body> 
+        <header>
+          <!--nav bar do lucas -->
+      <nav class="navbar col-12 navbar-expand-lg navbar-dark" >
+        <div class="container-fluid col-11 m-auto">
+          <a href="./index.html"><img id="logo-2-neon" src="../assets/imgs/icons/logo-2-neon.png""></a> 
+          <a class="navbar-brand" href="../index.html">Burger Dev!</a>
+          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarScroll" aria-controls="navbarScroll" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+  
+          </button>
+          <div class="collapse navbar-collapse" id="navbarScroll">
+            <ul class="navbar-nav me-auto my-2 my-lg-0 navbar-nav-scroll" style="--bs-scroll-height: 100px;">
+              <li class="nav-item">
+                <a class="nav-link active" aria-current="page" href="../index.html">Página Inicial</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="../pages/cadastro.html">Cadastro</a>
+              </li>
+              <li class="nav-item dropdown">
+                <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                  Menu/Outros
+                </a>
+                <ul class="dropdown-menu">
+                  <li><a class="dropdown-item" href="../produtos.html">Cardápio</a></li>
+                <li><hr class="dropdown-divider"></li>
+                  <li><a class="dropdown-item" href="./planoass.html">Planos</a></li>
+                <li><hr class="dropdown-divider"></li>
+                  <li><a class="dropdown-item" href="./contato.html">Contato</a></li>
+                  <li><hr class="dropdown-divider"></li>
+                  <li><a class="dropdown-item" href="./login.html">Perfil</a></li>
+                </ul>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link disabled"></a>
+              </li>
+            </ul>
+            <form class="d-flex" role="search">
+              <input class="form-control me-2" type="search" placeholder="Buscar..." aria-label="Search">
+              <button class="btn btn-outline-light btn-dark" type="submit">Buscar</button>
+            </form>
+          </div>
+        </div>
+      </nav>
+      <!-- fim navbar -->
+        </header>
+        <main>
+          <section class="background-radial-gradient overflow-hidden">
+
+            <div class="container">
+              <nav class="navbar navbar-expand-lg wwp-navbar">
+              <div class="card card-container">
+                  <img class="profile-img-card" src="..." alt="" />
+                  <img id="profile-img" class="profile-img-card" src="" />   
+                  <h2>Burger Dev!</h2><br>
+                
+            <!-- Endereço de email input -->
+            <div class="form-outline mb-4">
+              <input type="email" id="inputEmail" class="form-control" placeholder="Endereço de email" required autofocus>
+            </div>
+            <!--Senha input -->
+            <div class="form-outline mb-4">
+              
+              <input type="password" id="inputEmail" class="form-control" placeholder="Senha" required autofocus >
+            </div>
+            <!-- Layout de grade -->
+            <div class="row mb-4">
+              <div class="col d-flex justify-content-center">
+              </div>
+                
+                <!-- Checkbox -->
+                <!-- <div class="form-check">
+                  <input class="form-check-input" type="checkbox" value="" id="form2Example34" checked />
+                  <label class="form-check-label" for="form2Example34"> Lembrar a senha </label>
+                </div> -->
+
+          
+            <!-- Botão de envio -->
+              <div class="text-center pt-1 mb-5 pb-1">
+                <button id="botao-formulario" class="btn btn-primary btn-block fa-lg gradient-custom-2 mb-3" type="button">Entrar</button>
+                  <div class="col">
+                    <!--link Simples -->
+                    <a href="./senha.html">Esqueceu a senha?</a>
+                  </div><br>
+            
+              <!-- Botão de registro -->
+              <div class="text-center">
+                <p>Não é um membro? <a href="./cadastro.html">Registro</a></p>
+              </div>
+              <div class="login-alt">
+                <a id="login-link" href="#"><img src="../assets/imgs/icons/facebook-logo.svg"> Login com o Facebook</a>
+                <a id="login-link" href="#"><img src="../assets/imgs/icons/gmail-logo.png"> Login com o G-mail</a>
+              </div>
+              </div>
+            </div>
+            </div>
+          </div>
+
+              
+              
+            <!-- <p>ou inscreva-se com:</p>
+              <button type="button" class="btn btn-primary btn-floating mx-1">
+                <i class="fab fa-facebook-f"></i>
+              </button>
+          
+              <button type="button" class="btn btn-primary btn-floating mx-1">
+                <i class="fab fa-google"></i>
+              </button>
+          
+              <button type="button" class="btn btn-primary btn-floating mx-1">
+                <i class="fab fa-twitter"></i>
+              </button>
+          
+              <button type="button" class="btn btn-primary btn-floating mx-1">
+                <i class="fab fa-github"></i>
+              </button> -->
+            
+            </section>
+       
+        </main>
+      <footer>
+        <div class="footer-links">
+          <a href="#" target="_self">Termos de serviços</a>
+          <a href="#" target="_self">Políticas de privacidade</a>
+          <a href="#" target="_self">Dúvidas frequentes</a>
+          <a href="#" target="_self">Institucional</a>
+          <a href="#" target="_self">Trabalhe conosco</a>
+          <a href="#" target="_self">Sugira um serviço</a>
+          <a href="#" target="_self">Gerenciar Cookies</a>
+          <a href="#" target="_self">&copy;&nbsp;Burger&nbsp;Dev!&nbsp;2022</a>
+        </div>
+      </footer>
+              <!-- <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.6.1/jquery.min.js"></script>  -->
+              <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-kenU1KFdBIe4zVF0s0G1M5b4hcpxyD9F7jL+jjXkk+Q2h455rYXK/7HAuoJl+0I4" crossorigin="anonymous"></script>
+              <!-- <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.6/dist/umd/popper.min.js" integrity="sha384-oBqDVmMz9ATKxIep9tiCxS/Z9fNfEXiDAYTujMAeBAsjFuCZSmKbSSUnQlmh/jp3" crossorigin="anonymous"></script> -->
+              <!-- <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/js/bootstrap.min.js" integrity="sha384-cuYeSxntonz0PPNlHhBs68uyIAVpIIOZZ5JqeqvYYIcEL727kskC66kF92t6Xl2V" crossorigin="anonymous"></script> -->
+              <script src="login.js"></script>
+              <script src="bootstrap/bootstrap-5.2.3-dist.zip"></script>
+          </body>
+          </html>
