@@ -51,7 +51,7 @@ header > nav > div > a > img {
 .card-container.card {
     width: 350px;
     padding: 35px 40px;
-    height: 550px;
+    height: fit-content;
     backdrop-filter: saturate(150%) blur(25px); 
     background:rgba(220, 220, 220, 0.623);
     margin:auto;
