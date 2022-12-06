@@ -17,7 +17,7 @@ Como o serviço de Delivery realiza pedidos personalizados pelo nosso site, ent�
 
 
 ## :memo: Requisitos 
-- [x] Página inicial (home);
+- [x] Página inicial (home) ;
 - [x] Página de detalhes sobre o serviço;
 - [x] Página de cadastro na lista de espera;
 - [x] Página de contato;
@@ -30,3 +30,5 @@ Como o serviço de Delivery realiza pedidos personalizados pelo nosso site, ent�
 * Manu Brito
 * Pedro Henrique
 * Viviane Moreira
+
+## :globe_with_meridians: Page  https://squad-10-dev.github.io/2-Projeto-em-Grupo/index.html
