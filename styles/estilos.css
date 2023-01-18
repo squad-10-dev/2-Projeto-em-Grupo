@@ -43,7 +43,7 @@ footer > div.footer-links > a {
     @media screen and (max-width:600px){
         #logo-2-neon{
            max-width: 65px;
-           height: 100%;
+           max-height: 100%;
            margin:auto;
            transition:2s;
         }
