@@ -69,8 +69,8 @@ footer > div.footer-links > a {
       }
     
 .btn:hover {
-    background: white;
-    color: black;
+    background: #fff;
+    color: #000;
 
 }
 
