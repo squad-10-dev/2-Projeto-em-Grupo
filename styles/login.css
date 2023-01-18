@@ -22,6 +22,7 @@ header > nav > div > a > img {
  .container{
     max-width: 66rem;
     height:40rem;
+    padding:15px;
     display: flex;
     justify-content: center;
     background:url(../assets/imgs/backgrounds/fast-food-dish-on-blue.jpg);
@@ -199,7 +200,11 @@ footer > div.footer-links > a:hover{
    color:#17151594;
 }
      
-   
+   #email-error,#senha-error {
+    height:20px;
+    width: 20px;
+
+   }
 
     
 

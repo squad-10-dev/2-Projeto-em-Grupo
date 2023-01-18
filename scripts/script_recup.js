@@ -1,19 +1,20 @@
 
-document.getElementById('btn2').addEventListener('click',Login);
-
-function Login(event) {
+document.getElementById('btn2').addEventListener('click',recup);
+const emailError2 = document.getElementById('email-error2');
+const emailConfirmError2 = document.getElementById('emailConfirm-error2');
+function recup(event) {
     event.preventDefault(); 
        const usuario = document.getElementById('emailRec1').value;
        const usuarioConfirm = document.getElementById('emailRec2').value; 
        const emailRegex = /^[a-zA-Z0-9.!#$%&'*+/=?^_`{|}~-]+@[a-zA-Z0-9-]+(?:\.[a-zA-Z0-9-]+)*$/;
        if (!usuario.match(emailRegex)){
-           document.getElementById('email-error2').innerHTML = "Email Inválido";
+           emailError2.textContent = "Email Inválido";
        }
         else if (usuario.match(emailRegex)) { 
-          document.getElementById('email-error2').innerHTML = "Email Válido";
+            emailError2.textContent = "";
 }       if (usuario != usuarioConfirm && usuario.match(emailRegex) ){
-        document.getElementById('emailConfirm-error2').innerHTML = "Os e-mails não conferem, por favor verifique!";
+       emailConfirmError2.textContent = "Os e-mails não conferem, por favor verifique!";
 }       else if (usuario == usuarioConfirm && usuario.match(emailRegex)){
-    document.getElementById('emailConfirm-error2').innerHTML = "Endereço de e-mail confirmado, por favor verifique seu e-mail";
+        emailConfirmError2.textContent = "Endereço de e-mail confirmado, por favor verifique seu e-mail";
 }
 }
