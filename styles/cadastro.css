@@ -22,7 +22,7 @@ header > nav{
 header > nav > div > a > img { 
     display: block;
     max-width:6rem;
-    height: 100%;
+    max-height: 100%;
     margin: auto;
  }
  @media screen and (max-width:600px){

@@ -37,7 +37,7 @@ footer > div.footer-links > a {
 #logo-2-neon{
     display: block;
     max-width:6rem;
-    height: 100%;
+    max-height: 100%;
     margin: auto;
 }
     @media screen and (max-width:600px){
@@ -104,7 +104,7 @@ nav {
     transition: all 0.6s cubic-bezier(0.165, 0.84, 0.44, 1);
   }
 
-  .card: :hover {
+  .card:hover {
     transform: scale(1.02, 1.02);
     -webkit-transform: scale(1.02, 1.02);
     backface-visibility: hidden; 

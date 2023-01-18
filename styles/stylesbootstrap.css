@@ -36,7 +36,11 @@ footer > div.footer-links > a {
 #logo-2-neon{
     display: block;
     max-width:6rem;
+<<<<<<< HEAD
+    height: 6rem;
+=======
     max-height: 100%;
+>>>>>>> c8b78a08b38db82c00ecfd41eb750f30bdb33057
     margin: auto;
 }
     @media screen and (max-width:600px){
@@ -68,11 +72,11 @@ footer > div.footer-links > a {
     
       }
     
-.btn:hover {
-    background: #fff;
-    color: #000;
+/* .btn:hover {
+    background: white;
+    color: black;
 
-}
+} */
 
 nav {
     background: #ff9f1c;
