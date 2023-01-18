@@ -42,7 +42,7 @@ footer > div.footer-links > a {
     @media screen and (max-width:600px){
         #logo-2-neon{
            max-width: 65px;
-           height: 100%;
+           height: 6rem;
            margin:auto;
            transition:2s;
         }
@@ -68,7 +68,7 @@ footer > div.footer-links > a {
     
       }
     
-.btn: :hover {
+.btn:hover {
     background: white;
     color: black;
 
