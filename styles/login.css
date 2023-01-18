@@ -203,6 +203,7 @@ footer > div.footer-links > a:hover{
    #email-error , #senha-error {
     height:60px;
     width: 100%;
+       background:black;
 
    }
 
