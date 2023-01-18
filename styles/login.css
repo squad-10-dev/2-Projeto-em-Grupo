@@ -200,9 +200,9 @@ footer > div.footer-links > a:hover{
    color:#17151594;
 }
      
-   #email-error,#senha-error {
-    height:20px;
-    width: 20px;
+   #email-error , #senha-error {
+    height:60px;
+    width: 100%;
 
    }
 
