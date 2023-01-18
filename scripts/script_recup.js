@@ -16,5 +16,6 @@ function recup(event) {
        emailConfirmError2.textContent = "Os e-mails não conferem, por favor verifique!";
 }       else if (usuario == usuarioConfirm && usuario.match(emailRegex)){
         emailConfirmError2.textContent = "Endereço de e-mail confirmado, por favor verifique seu e-mail";
+        emailConfirmError2.style.color = 'green' ;
 }
 }

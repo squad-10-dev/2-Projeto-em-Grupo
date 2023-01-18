@@ -53,7 +53,7 @@ header > nav > div > a > img {
     height: fit-content;
     backdrop-filter: saturate(150%) blur(25px); 
     background:rgba(220, 220, 220, 0.623);
-    margin:auto;
+    margin:0 auto;
     /* background-image: radial-gradient(650px circle at 0% 0%,
     hsl(31, 95%, 50%) 15%,
     hsl(35, 85%, 68%) 35%,
@@ -204,8 +204,8 @@ footer > div.footer-links > a:hover{
     display:block;
     height:20px;
     width: 100%;
-    background:black;
-
+    font-size: 0.7rem;
+    color:red;
    }
 
     
